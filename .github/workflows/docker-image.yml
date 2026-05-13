@@ -49,6 +49,6 @@ jobs:
         docker push hunter2460/docker-graphql:$NEW_VERSION 
         docker push hunter2460/docker-graphql:latest 
       
-    
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+
